@@ -14,3 +14,7 @@ PyTorch implementation of **A Physics-informed Diffusion Model for High-fidelity
 <h3>Sample 2</h3>
 <img src="https://github.com/BaratiLab/Diffusion-based-Fluid-Super-resolution/blob/main_v1/images/reconstruction_sample_02.gif">
 </div>
+
+
+## Running the Experiments
+More details about how to run the experiments are coming soon.
