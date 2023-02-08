@@ -1,0 +1,54 @@
+Train a model
+
+Training is exactly the same as DDPM with the following:
+
+python main.py --config {DATASET}.yml --exp {PROJECT_PATH} --doc {MODEL_NAME} --ni
+
+where
+
+    ETA controls the scale of the variance (0 is DDIM, and 1 is one type of DDPM).
+    STEPS controls how many timesteps used in the process.
+    MODEL_NAME finds the pre-trained checkpoint according to its inferred path.
+
+
+python main.py --config cifar10.yml --exp ./experiments/cifar10_run_01/ --doc ./weights/cifar10_run_01/
+
+python main.py --config cifar10.yml --exp ./experiments/cifar10_run_01/ --doc ./weights/cifar10_run_01/ --ni
+
+python main.py --config fno.yml --exp ./experiments/cifar10_run_01_t1/ --doc ./weights/cifar10_run_01/
+
+If the following error shows:
+RuntimeError: Expected number of channels in input to be divisible by num_groups, but got input of shape [20, 20, 32, 32] and num_groups=32
+
+Make the following change:
+In models --> diffusion.py --> def Normalize(in_channels): Change "num_groups=32" to "num_groups=20".
+
+
+/---------------------------------
+Train on dataset "fno_ns_Re200_N10000_T30.npy"
+
+python main.py --config fno_re200_rs64.yml --exp ./experiments/fno_run_01_t1/ --doc ./weights/fno_run_01_t1/ --ni
+
+/---------------------------------
+Train on dataset "JHUTDB"
+
+python main.py --config fno_re200_rs64.yml --exp ./experiments/jhutdb_run_01_t1/ --doc ./weights/jhutdb_run_01_t1/ --ni
+
+/------------------------------------------------------------
+Sampling from the model
+Sampling from the generalized model for FID evaluation
+
+python main.py --config {DATASET}.yml --exp {PROJECT_PATH} --doc {MODEL_NAME} --sample --fid --timesteps {STEPS} --eta {ETA} --ni
+
+python main.py --config fno.yml --exp ./experiments/cifar10_run_01_t1/ --doc ./weights/cifar10_run_01/ --sample --fid
+
+python main.py --config fno.yml --exp ./experiments/cifar10_run_01_t1/ --doc ./weights/cifar10_fno_t1/ --sample --fid
+
+python main.py --config fno_re200_rs64.yml --exp ./experiments/fno_run_01_t1/ --doc ./weights/fno_run_01_t1 --sample --fid
+
+/--------------------------------
+Ground truth sample directory:
+/home/cmu/Dule/ddim/experiments/cifar10_run_01_t1/logs/samples/cifar10_fno_t1/gt
+
+self.args.image_folder:  
+./experiments/cifar10_run_01_t1/image_samples/images
