@@ -23,6 +23,8 @@ Datasets used for model training and sampling can be downloaded via the followin
 
 - Low resolution data measured from random grid locations (input data for super-resolution tasks) (link coming soon)
 
+<h3>Data format</h3>
+
 
 ## Running the Experiments
 More details about how to run the experiments are coming soon.
