@@ -27,7 +27,7 @@ Datasets used for model training and sampling can be downloaded via the followin
 ## Running the Experiments
 
 
-<p>(<span style="color: #ff0000"> More details about how to run the experiments are coming soon. </span>)</p>
+<p>(<font color="blue">  More details about how to run the experiments are coming soon. </font>)</p>
 
 
 
