@@ -16,6 +16,12 @@ PyTorch implementation of **A Physics-informed Diffusion Model for High-fidelity
 </div>
 
 
+## Datasets
+Datasets used for model training and sampling can be downloaded via the following links.
+High resolution data (ground truth for super-resolution tasks) (<a href="https://figshare.com/ndownloader/files/39181919">link</a>)
+Low resolution data measured from random grid locations (input data for super-resolution tasks) (link coming soon)
+
+
 ## Running the Experiments
 More details about how to run the experiments are coming soon.
 
