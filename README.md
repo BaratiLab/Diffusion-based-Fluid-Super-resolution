@@ -29,15 +29,10 @@ This code has been tested on the following environment:
 
 ```
 PyTorch 1.7 + CUDA 10.1 + torchvision 0.8.2
-
 TensorBoard 2.11
-
 Numpy 1.22
-
 tqdm 4.59
-
 einops 0.4.1
-
 matplotlib 3.6.2
 ```
 
