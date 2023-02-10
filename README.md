@@ -69,7 +69,7 @@ Note: If you prefer not to go through Step 1, we provide the following pretraine
 
 <b>Step 2 - Super-resolution</b>
 
-Add the file of trained model weight (e.g., ``baseline_ckpt.pth``) from Step 1 to the following directory.
+Add the model checkpoint file (e.g., ``baseline_ckpt.pth``) from <b>Step</b> 1 to the following directory.
 
 ``.../Diffusion-based-Fluid-Super-resolution/pretrained_weights/``
 
