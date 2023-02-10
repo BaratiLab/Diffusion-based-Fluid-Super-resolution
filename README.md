@@ -27,6 +27,7 @@ Datasets used for model training and sampling can be downloaded via the followin
 This code has been tested on the following environment:
 
 ```
+python 3.8
 PyTorch 1.7 + CUDA 10.1 + torchvision 0.8.2
 TensorBoard 2.11
 Numpy 1.22
