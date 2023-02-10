@@ -39,7 +39,7 @@ More details about how to run the experiments are coming soon.
 
 - Step 1 - Model Training
 
-In the directory ``./train_ddpm``, run:
+In the subdirectory ``./train_ddpm/``, run:
 
 ``
 bash train.sh
