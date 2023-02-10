@@ -43,6 +43,8 @@ More details about how to run the experiments are coming soon.
 
 - Step 1 - Model Training
 
+(If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from Step 2: model without physics-informed conditioning input: link1, model with physics-informed conditioning input: link2)
+
 In the subdirectory ``./train_ddpm/``, run:
 
 ``
@@ -55,10 +57,18 @@ or
 python main.py --config ./km_re1000_rs256_conditional.yml --exp ./experiments/km256/ --doc ./weights/km256/ --ni
 ``
 
+The checkpoint of the trained model is by default saved at the following trajectory. You can atler the saving directory according to your need by changing the values of ``--exp`` and ``--doc``.
+``.../Diffusion-based-Fluid-Super-resolution/train_ddpm/experiments/km256/logs/weights/km256/``
+
 - Step 2 - Super-resolution
 
-In the main directory of this repo, run:
+Add the file of trained model weight (e.g., ``baseline_ckpt.pth``) from Step 1 to the following directory.
 
+``.../Diffusion-based-Fluid-Super-resolution/pretrained_weights/``
+
+
+
+In the main directory of this repo, run:
 
 ``
 python main.py --config kmflow_re1000_rs256.yml --seed 1234 --sample_step 1 --t 240 --r 30
