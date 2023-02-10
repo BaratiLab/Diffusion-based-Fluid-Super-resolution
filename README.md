@@ -30,6 +30,7 @@ Download the high res and low res data and save the data files to the ``./data``
 <p>(<font color="blue">  More details about how to run the experiments are coming soon. </font>)</p>
 
 - Step 1 - Model Training
+
 In the directory ``./train_ddpm``, run:
 
 ``
@@ -43,6 +44,9 @@ python main.py --config ./km_re1000_rs256_conditional.yml --exp ./experiments/km
 ``
 
 - Step 2 - Super-resolution
+
+In the main directory of this repo, run:
+
 
 ``
 python main.py --config kmflow_re1000_rs256.yml --seed 1234 --sample_step 1 --t 240 --r 30
