@@ -45,8 +45,8 @@ More details about how to run the experiments are coming soon.
 
 If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from Step 2:
 <ol type="1">
-  <li>model without physics-informed conditioning input (link)</li>
-  <li>model with physics-informed conditioning input (link)</li>
+  <li>model without physics-informed conditioning input (<a, href="https://figshare.com/ndownloader/files/39184001">link</a>)</li>
+  <li>model with physics-informed conditioning input (<a, href="https://figshare.com/ndownloader/files/39184073">link</a>)</li>
 </ol>  
 
 In the subdirectory ``./train_ddpm/``, run:
