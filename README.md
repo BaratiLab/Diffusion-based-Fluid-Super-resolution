@@ -31,15 +31,19 @@ Download the high res and low res data and save the data files to the ``./data``
 
 - Step 1 - Model Training
 In the directory ``./train_ddpm``, run:
+
 ``
 bash train.sh
 ``
+
 or 
+
 ``
 python main.py --config ./km_re1000_rs256_conditional.yml --exp ./experiments/km256/ --doc ./weights/km256/ --ni
 ``
 
 - Step 2 - Super-resolution
+
 ``
 python main.py --config kmflow_re1000_rs256.yml --seed 1234 --sample_step 1 --t 240 --r 30
 ``
