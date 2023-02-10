@@ -2,11 +2,7 @@
 <br>
 
 PyTorch implementation of **A Physics-informed Diffusion Model for High-fidelity Flow Field Reconstruction** 
-
-<div>
-<p>arXiv: <a href="https://arxiv.org/abs/2211.14680">link</a></p>
-<p>Preprint: Journal of Computational Physics</p>
-</div>
+(<a href="https://arxiv.org/abs/2211.14680">arXiv</a>)
 
 <div style style=”line-height: 25%” align="center">
 <h3>Sample 1</h3>
@@ -66,7 +62,23 @@ python main.py --config kmflow_re1000_rs256.yml --seed 1234 --sample_step 1 --t 
 ``
 
 
+## References
+If you find this repository useful for your research, please cite the following work.
+```
+@article{shu2023physics,
+  title={A Physics-informed Diffusion Model for High-fidelity Flow Field Reconstruction},
+  author={Shu, Dule and Li, Zijie and Farimani, Amir Barati},
+  journal={Journal of Computational Physics},
+  pages={111972},
+  year={2023},
+  publisher={Elsevier}
+}
+}
+```
+
+
 This implementation is based on / inspired by:
 
 - [https://github.com/ermongroup/SDEdit](https://github.com/ermongroup/SDEdit) (SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations), 
 - [https://github.com/ermongroup/ddim](https://github.com/ermongroup/ddim) (Denoising Diffusion Implicit Models)
+
