@@ -21,7 +21,7 @@ Datasets used for model training and sampling can be downloaded via the followin
 
 - High resolution data (ground truth for super-resolution tasks) (<a href="https://figshare.com/ndownloader/files/39181919">link</a>)
 
-- Low resolution data measured from random grid locations (input data for super-resolution tasks) (link coming soon)
+- Low resolution data measured from random grid locations (input data for super-resolution tasks) (<b>link coming soon</b>)
 
 
 ## Running the Experiments
