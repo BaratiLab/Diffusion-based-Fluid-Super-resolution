@@ -26,15 +26,9 @@ Datasets used for model training and sampling can be downloaded via the followin
 
 ## Running the Experiments
 This code has been tested on the following environment
-```
-PyTorch 1.7
-
-CUDA 10.1
-
-TensorBoard 2.11
-
-Numpy 1.22
-```
+``
+PyTorch 1.7, CUDA 10.1, TensorBoard 2.11, Numpy 1.22
+``
 
 Download the high res and low res data and save the data files to the ``./data`` directory.
 
