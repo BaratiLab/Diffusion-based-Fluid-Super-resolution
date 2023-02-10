@@ -60,7 +60,7 @@ The checkpoint of the trained model is by default saved at the following traject
 
 ``.../Diffusion-based-Fluid-Super-resolution/train_ddpm/experiments/km256/logs/weights/km256/``
 
-Note: If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from Step 2:
+Note: If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from <b>Step 2</b>:
 <ol type="1">
   <li>model without physics-informed conditioning input (<a href="https://figshare.com/ndownloader/files/39181919">link</a>)</li>
   <li>model with physics-informed conditioning input (<a href="https://figshare.com/ndownloader/files/39184073">link</a>)</li>
@@ -69,7 +69,7 @@ Note: If you prefer not to go through Step 1, we provide the following pretraine
 
 <b>Step 2 - Super-resolution</b>
 
-Add the model checkpoint file (e.g., ``baseline_ckpt.pth``) from <b>Step</b> 1 to the following directory.
+Add the model checkpoint file (e.g., ``baseline_ckpt.pth``) from <b>Step 1</b> to the following directory.
 
 ``.../Diffusion-based-Fluid-Super-resolution/pretrained_weights/``
 
