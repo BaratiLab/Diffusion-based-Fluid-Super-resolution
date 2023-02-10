@@ -41,7 +41,7 @@ Download the high res and low res data and save the data files to the subdirecto
 More details about how to run the experiments are coming soon.
 -->
 
-- Step 1 - Model Training
+#Step 1 - Model Training
 
 In the subdirectory ``./train_ddpm/``, run:
 
