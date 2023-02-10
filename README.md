@@ -33,7 +33,9 @@ PyTorch 1.7, CUDA 10.1, TensorBoard 2.11, Numpy 1.22
 
 Download the high res and low res data and save the data files to the ``./data`` directory.
 
-<p>(<font color="blue">  More details about how to run the experiments are coming soon. </font>)</p>
+<!--
+More details about how to run the experiments are coming soon.
+-->
 
 - Step 1 - Model Training
 
