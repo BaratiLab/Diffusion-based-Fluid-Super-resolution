@@ -25,7 +25,7 @@ Datasets used for model training and sampling can be downloaded via the followin
 
 
 ## Running the Experiments
-
+Download the high res and low res data to the ``data`` directory.
 
 <p>(<font color="blue">  More details about how to run the experiments are coming soon. </font>)</p>
 
