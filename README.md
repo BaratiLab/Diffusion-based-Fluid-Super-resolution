@@ -66,7 +66,7 @@ Note: If you prefer not to go through Step 1, we provide the following pretraine
 </ol>
 
 
-- Step 2 - Super-resolution
+<b>Step 2 - Super-resolution</b>
 
 Add the file of trained model weight (e.g., ``baseline_ckpt.pth``) from Step 1 to the following directory.
 
