@@ -45,7 +45,7 @@ More details about how to run the experiments are coming soon.
 
 If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from Step 2:
 <ol type="1">
-  <li>model without physics-informed conditioning input(link)</li>
+  <li>model without physics-informed conditioning input (link)</li>
   <li>model with physics-informed conditioning input (link)</li>
 </ol>  
 
@@ -62,6 +62,7 @@ python main.py --config ./km_re1000_rs256_conditional.yml --exp ./experiments/km
 ``
 
 The checkpoint of the trained model is by default saved at the following trajectory. You can atler the saving directory according to your need by changing the values of ``--exp`` and ``--doc``.
+
 ``.../Diffusion-based-Fluid-Super-resolution/train_ddpm/experiments/km256/logs/weights/km256/``
 
 - Step 2 - Super-resolution
