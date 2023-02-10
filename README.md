@@ -35,7 +35,7 @@ einops 0.4.1
 matplotlib 3.6.2
 ```
 
-Download the high res and low res data and save the data files to the subdirectory ``./data``.
+Download the high res and low res data and save the data files to the subdirectory ``./data/``.
 
 <!--
 More details about how to run the experiments are coming soon.
