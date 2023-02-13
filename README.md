@@ -5,7 +5,7 @@ PyTorch implementation of
 
 **A Physics-informed Diffusion Model for High-fidelity Flow Field Reconstruction** 
 
-(Links to paper: <a href="https://arxiv.org/abs/2211.14680">Journal of Computational Physics</a> | <a href="https://arxiv.org/abs/2211.14680">arXiv</a>)
+(Links to paper: <a href="https://www.sciencedirect.com/science/article/pii/S0021999123000670">Journal of Computational Physics</a> | <a href="https://arxiv.org/abs/2211.14680">arXiv</a>)
 
 <div style style=”line-height: 25%” align="center">
 <h3>Sample 1</h3>
