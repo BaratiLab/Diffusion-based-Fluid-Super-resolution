@@ -64,7 +64,7 @@ The checkpoint of the trained model is by default saved at the following traject
 
 Note: If you prefer not to go through Step 1, we provide the following pretrained checkpoints to directly start from <b>Step 2</b>:
 <ol type="1">
-  <li>model without physics-informed conditioning input (<a href="https://figshare.com/ndownloader/files/39181919">link</a>)</li>
+  <li>model without physics-informed conditioning input (<a href="https://figshare.com/ndownloader/files/40320733">link</a>)</li>
   <li>model with physics-informed conditioning input (<a href="https://figshare.com/ndownloader/files/39184073">link</a>)</li>
 </ol>
 
