@@ -14,12 +14,12 @@ from runners.rs256_guided_diffusion import Diffusion
 
 def parse_args_and_config():
     parser = argparse.ArgumentParser(description=globals()['__doc__'])
-    parser.add_argument('--config', type=str, required=True, help='Path to the config file')
+    parser.add_argument('--config', type=str, required=False, help='Path to the config file')
     parser.add_argument('--seed', type=int, default=1234, help='Random seed')
     parser.add_argument('--repeat_run', type=int, default=1, help='Repeat run')
     parser.add_argument('--sample_step', type=int, default=1, help='Total sampling steps')
-    parser.add_argument('--t', type=int, default=400, help='Sampling noise scale')
-    parser.add_argument('--r', dest='reverse_steps', type=int, default=20, help='Revserse steps')
+    parser.add_argument('--t', type=int, default=240, help='Sampling noise scale')
+    parser.add_argument('--r', dest='reverse_steps', type=int, default=30, help='Revserse steps')
     parser.add_argument('--comment', type=str, default='', help='Comment')
     args = parser.parse_args()
 
