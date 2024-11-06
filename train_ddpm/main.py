@@ -219,8 +219,12 @@ def main():
     logging.info("Exp comment = {}".format(args.comment))
 
     try:
-        runner = ConditionalDiffusion(args, config)
-        # runner = Diffusion(args, config)
+        if config.model.type == "simple":
+            runner = Diffusion(args, config)
+        elif config.model.type == "conditional":
+            runner = ConditionalDiffusion(args, config)
+        else:
+            raise AssertionError
         if args.sample:
             runner.sample()
         elif args.test:
